@@ -1,0 +1,25 @@
+cmd: docker run -it [Image name] ==> this cmd work for create new container
+
+-it iska matlab hai ki jo mera terminal hai usko docker ke terminal ke saath connect kr do or disconnect mat krna
+
+cmd : docker container ls ==>(display all running containers)
+
+cmd : docker container ls -a  ==>(display all containers)
+
+cmd : docker start ==>(this command work for Start of container)
+
+cmd : docker stop ==>(this command work for Stop of container)
+
+cmd : docker exec -it containerName[gallant_mirzakhani] bash ==> (this command to use docker terminal ko local terminal se connect krne ke liye)
+
+cmd : docker images ==>(display all images)
+
+cmd : docker run -it -p 9000:9000 [image-name] (this cmd use to port mapping ya port expose)
+
+cmd : docker run -it -e PORT=4000 -p 4000:4000 my-first-dockerize (this cmd use to set env variables and port mapping ya port expose)
+
+cmd : docker compose up (this cmd use to multiple service exmple:(postgres,redis,mailog)
+
+docker image=template of a project
+docker container = instance of image container isolated hota hai ise humari local machine se koi fark nahi padta hai 
+ki kya install hai ya nahi.
